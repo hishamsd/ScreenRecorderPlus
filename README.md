@@ -1,5 +1,3 @@
-🌏 [한국어](./README-ko.md)
-
 <img src="./ScreenRecorder/icon.ico" width="100" height="100">
 
 # Screen Recorder
