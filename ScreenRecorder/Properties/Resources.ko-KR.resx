@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdvancedSettings" xml:space="preserve">
+    <value>고급 설정</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>찾아보기</value>
+  </data>
+  <data name="CaptureCancel" xml:space="preserve">
+    <value>캡쳐 취소</value>
+  </data>
+  <data name="CaptureCursor" xml:space="preserve">
+    <value>커서 캡쳐</value>
+  </data>
+  <data name="CaptureDisplay" xml:space="preserve">
+    <value>디스플레이 캡쳐</value>
+  </data>
+  <data name="CaptureRegion" xml:space="preserve">
+    <value>사각형 캡쳐</value>
+  </data>
+  <data name="CaptureRegionByUserSelection" xml:space="preserve">
+    <value>사용자가 선택한 캡쳐 영역</value>
+  </data>
+  <data name="CaptureWindow" xml:space="preserve">
+    <value>창 캡쳐</value>
+  </data>
+  <data name="DeleteShortcut" xml:space="preserve">
+    <value>단축키 삭제</value>
+  </data>
+  <data name="DisplayNotFound" xml:space="preserve">
+    <value>디스플레이를 찾을 수 없습니다</value>
+  </data>
+  <data name="EncoderAudioBitrate" xml:space="preserve">
+    <value>오디오 비트레이트</value>
+  </data>
+  <data name="EncoderAudioCodec" xml:space="preserve">
+    <value>오디오 코덱</value>
+  </data>
+  <data name="EncoderBaseDirectory" xml:space="preserve">
+    <value>녹화 경로</value>
+  </data>
+  <data name="EncoderCaptureDisplay" xml:space="preserve">
+    <value>캡쳐 대상</value>
+  </data>
+  <data name="EncoderFileFormat" xml:space="preserve">
+    <value>파일 포맷</value>
+  </data>
+  <data name="EncoderFrameRate" xml:space="preserve">
+    <value>프레임 레이트</value>
+  </data>
+  <data name="EncoderSettings" xml:space="preserve">
+    <value>녹화 설정</value>
+  </data>
+  <data name="EncoderStatusPauseMessage" xml:space="preserve">
+    <value>녹화중 (일시정지)</value>
+  </data>
+  <data name="EncoderStatusStartMessage" xml:space="preserve">
+    <value>녹화중</value>
+  </data>
+  <data name="EncoderStatusStopMessage" xml:space="preserve">
+    <value>녹화 대기중</value>
+  </data>
+  <data name="EncoderVideoBitrate" xml:space="preserve">
+    <value>비디오 비트레이트</value>
+  </data>
+  <data name="EncoderVideoCodec" xml:space="preserve">
+    <value>비디오 코덱</value>
+  </data>
+  <data name="ExcludeAppFromCapture" xml:space="preserve">
+    <value>캡처 시 앱을 제외하고 캡처합니다.</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>종료</value>
+  </data>
+  <data name="FailedToStartRecording" xml:space="preserve">
+    <value>녹화 시작에 실패하였습니다</value>
+  </data>
+  <data name="HardwareEncoderNotFoundWarning" xml:space="preserve">
+    <value>하드웨어 인코더를 찾을 수 없습니다. 소프트웨어 인코더를 사용합니다.</value>
+  </data>
+  <data name="IncludeAppFromCapture" xml:space="preserve">
+    <value>캡처에서 앱을 포함하여 캡처합니다.</value>
+  </data>
+  <data name="NotSpecified" xml:space="preserve">
+    <value>지정 안 됨</value>
+  </data>
+  <data name="OpenEncodingFolderInFileExplorer" xml:space="preserve">
+    <value>파일 탐색기에서 녹화 폴더 열기</value>
+  </data>
+  <data name="OpenFolderInFileExplorer" xml:space="preserve">
+    <value>파일 탐색기에서 폴더 열기</value>
+  </data>
+  <data name="PauseRecording" xml:space="preserve">
+    <value>녹화 일시정지</value>
+  </data>
+  <data name="PrimaryDisplay" xml:space="preserve">
+    <value>기본 디스플레이</value>
+  </data>
+  <data name="RecordingPathDoesNotExist" xml:space="preserve">
+    <value>녹화 경로가 존재하지 않습니다</value>
+  </data>
+  <data name="RecordMicrophone" xml:space="preserve">
+    <value>마이크 녹음</value>
+  </data>
+  <data name="RegionSizeError" xml:space="preserve">
+    <value>100 x 100 보다 작은 영역은 녹화할 수 없습니다</value>
+  </data>
+  <data name="SetsTheRecordingPath" xml:space="preserve">
+    <value>녹화 경로를 설정합니다</value>
+  </data>
+  <data name="ShortcutSettings" xml:space="preserve">
+    <value>단축키 설정</value>
+  </data>
+  <data name="StartRecording" xml:space="preserve">
+    <value>녹화 시작</value>
+  </data>
+  <data name="StopRecording" xml:space="preserve">
+    <value>녹화 중지</value>
+  </data>
+  <data name="TheRecordingPathIsNotSet" xml:space="preserve">
+    <value>녹화 경로가 설정되어 있지 않습니다. 녹화 경로를 설정해주세요</value>
+  </data>
+</root>
